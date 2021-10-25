@@ -1,7 +1,8 @@
-23 Oktober 2021
+---
+23 Oktober 2021  
 Bagus Adhi:
 - Komparasi per baris
 
 Harir Ihsanur:
 - LSTM Efantinatti 2 Label vs 6 Label
-- Fix error confusion metrix
+- Fix error confusion matrix
