@@ -1,0 +1,45 @@
+
+input:
+train.csv
+eval.csv
+test.csv 
+
+filename, label, dataset
+100.wav, positive, coswara
+..
+300.wav, negative, coswara
+301.wav, positive, coughvid
+..
+600.wav, negative, coughvid
+601.wav, positive, compare
+900.wav, positive, compare
+
+# dataset normalization
+1. baca wav, dataset
+   if dataset == coswara
+        extract fitur()
+        data1.append()
+nomr1 = do_normalization()
+
+   if dataset == coughvid
+        extract fitur()
+        
+        do normalization
+   if dataset == compare
+        extract_fitur()
+        data3.append()
+
+data1 --> 300
+data2 --> 300
+data2 --> 300
+data = [data1, data2, data3]
+
+
+seharusnya train dan devel digabung
+
+individu --> per wav
+dataset  --> per dataset
+global   --> semua
+
+Output = 
+torch.Tensor(size([1, 64, frame]))
