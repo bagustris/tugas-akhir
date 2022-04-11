@@ -6,7 +6,7 @@ penulisan nama direktori/folder, file, variabel, dan strukturnya.
 
 ## Nama Repo
 Nama repo: tugas-akhir, contoh: bagustris/tugas-akhir  
-Penamaan (sub) direktori: gunakan hypen/dash/strip untuk pemisah antar kata, misal, `sub-dir`  
+Penamaan (sub) direktori: gunakan hyphen/dash/strip untuk pemisah antar kata, misal, `sub-dir`  
 Penamaan file: gunakan `underscore` untuk pemisah antar kata `run_train.sh`  
 **Jangan gunakan spasi untuk nama direktori, nama file**  
 Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan-proyek.html#more
@@ -18,7 +18,7 @@ Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan
    - coding untuk plot
    - diambil dari hasil terbaik di direktori `exp`
    - hendaknya dibagi per bab berdasarkan buku
-- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Hanya file data yang berukuran kecil (<10 Mb) yang diletakkan di direktori ini.
+- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Hanya file data yang berukuran kecil (<100 Mb) yang diletakkan di direktori ini.
 Contoh:  
    - X_si.npy
    - X_sd.npy
