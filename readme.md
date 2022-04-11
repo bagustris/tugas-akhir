@@ -5,7 +5,12 @@ Template di tempat ini hanya bersifat panduan. Di tempat lain ada yang menjadi k
 penulisan nama direktori/folder, file, variabel, dan strukturnya.
 
 ## Nama Repo
-tugas-akhir, contoh: bagustris/tugas-akhir
+Nama repo: tugas-akhir, contoh: bagustris/tugas-akhir  
+Penamaan (sub) direktori: gunakan hypen/dash/strip untuk pemisah antar kata, misal, `sub-dir`  
+Penamaan file: gunakan `underscore` untuk pemisah antar kata `run_train.sh`  
+**Jangan gunakan spasi untuk nama direktori, nama file**  
+Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan-proyek.html#more
+
 
 ## Struktur Direktori
 - `code`: 
@@ -13,13 +18,14 @@ tugas-akhir, contoh: bagustris/tugas-akhir
    - coding untuk plot
    - diambil dari hasil terbaik di direktori `exp`
    - hendaknya dibagi per bab berdasarkan buku
-- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Contoh:  
+- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Hanya file data yang berukuran kecil (<10 Mb) yang diletakkan di direktori ini.
+Contoh:  
    - X_si.npy
    - X_sd.npy
    - y_si.npy
-   - y_sd.npy
+   - y_sd.npy  
 - `fig`: berisi gambar
-- `book`: berisi file buku TA: Latex, ms word, atau LibreOffice Writer, Google Doc, dll.
+- `book`: berisi file buku TA: Latex, ms word, atau LibreOffice Writer, Google Doc, ppt, dll.
 - `exp`: direktori **UTAMA** yang berisi experimen berdasarkan waktu, contoh:  
    - 2021:
       - oktober:  
@@ -45,3 +51,10 @@ tugas-akhir, contoh: bagustris/tugas-akhir
   - temuan
   - dll (*like research diary atau journal*)
 - README.md: berisi panduan untuk mereplikasi TA, kontak, promosi, dll.
+
+
+Contoh penggunaan template ini:  
+- https://github.com/bagustris/TugasAkhir-ICA
+- https://github.com/bagusadhi/Tugas-Akhir  
+- https://github.com/runnisha477/Tugas-Akhir  
+- https://github.com/zanjabil2502/Tugas_Akhir  
