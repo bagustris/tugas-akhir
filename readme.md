@@ -18,7 +18,7 @@ Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan
    - coding untuk plot
    - diambil dari hasil terbaik di direktori `exp`
    - hendaknya dibagi per bab berdasarkan buku
-- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Hanya file data yang berukuran kecil (<100 Mb) yang diletakkan di direktori ini.
+- `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Hanya file data yang berukuran kecil (<100 Mb) yang diletakkan di direktori ini. Kontak pembimbing untuk mendapatkan persetujuan unggah data karena tidak semua data bisa diunggah.
 Contoh:  
    - X_si.npy
    - X_sd.npy
