@@ -8,7 +8,7 @@ penulisan nama direktori/folder, file, variabel, dan strukturnya.
 Nama repo: tugas-akhir, contoh: bagustris/tugas-akhir  
 Penamaan (sub) direktori: gunakan hyphen/dash/strip untuk pemisah antar kata, misal, `sub-dir`  
 Penamaan file: gunakan `underscore` untuk pemisah antar kata `run_train.sh`  
-**Jangan gunakan spasi untuk nama direktori, nama file**  
+**Jangan menggunakan spasi untuk nama direktori dan nama file**  
 Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan-proyek.html#more
 
 
@@ -17,7 +17,7 @@ Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan
    - berisi coding utama untuk mendapatkan data yang dipakai di buku TA, 
    - coding untuk plot
    - diambil dari hasil terbaik di direktori `exp`
-   - hendaknya dibagi per bab berdasarkan buku
+   - hendaknya dibagi per eksperimen atau bab berdasarkan buku
 - `data`: berisi raw data, baik yang digunakan di `code` atau `exp`. Hanya file data yang berukuran kecil (<100 Mb) yang diletakkan di direktori ini. Kontak pembimbing untuk mendapatkan persetujuan unggah data karena tidak semua data bisa diunggah.
 Contoh:  
    - X_si.npy
@@ -53,6 +53,7 @@ Contoh:
 - README.md: berisi panduan untuk mereplikasi TA, kontak, promosi, dll.
 
 
+## Contoh
 Contoh penggunaan template ini:  
 - https://github.com/bagustris/TugasAkhir-ICA
 - https://github.com/bagusadhi/Tugas-Akhir  
