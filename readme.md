@@ -7,7 +7,7 @@ penulisan nama direktori/folder, file, variabel, dan strukturnya.
 ## Nama Repo
 Nama repo: tugas-akhir, contoh: bagustris/tugas-akhir  
 Penamaan (sub) direktori: gunakan hyphen/dash/strip untuk pemisah antar kata, misal, `sub-dir`  
-Penamaan file: gunakan `underscore` untuk pemisah antar kata `run_train.sh`  
+Penamaan file: gunakan `underscore` untuk pemisah antar kata seperti `run_train.sh`  
 **Jangan menggunakan spasi untuk nama direktori dan nama file**  
 Lebih lanjut baca: http://bagustris.blogspot.com/2013/05/project-naming-penamaan-proyek.html#more
 
