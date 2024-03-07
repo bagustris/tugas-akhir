@@ -24,12 +24,12 @@ Contoh:
    - X_sd.npy
    - y_si.npy
    - y_sd.npy  
-- `fig`: berisi gambar
+- `figs`: berisi gambar-gambar
 - `book`: berisi file buku TA: Latex, ms word, atau LibreOffice Writer, Google Doc, ppt, dll.
-- `exp`: direktori **UTAMA** yang berisi experimen berdasarkan waktu, contoh:  
+- `exps`: direktori **UTAMA** yang berisi experimen berdasarkan waktu, contoh:  
    - 2021:
       - oktober:  
-         - klasikasi_unbalance_normal.py  
+         - klasifikasi_unbalance_normal.py  
          - klasifikasi_4_kelas.py  
       - november
       - desember
@@ -41,8 +41,8 @@ Contoh:
       - mei   
       - juni
       - juli
-- `note`:  
-  Berisi catatan dan lain-lain:  
+- `notes`:  
+  Berisi catatan dengan format YYYY-MM-DD.md yang berisi:  
   - diskusi dengan dosen pembimbing
   - pertanyan dan jawaban
   - apa yang belum paham
